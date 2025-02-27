@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
-  { href: "#hero", label: "Home" },
+  { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
   { href: "#portfolio", label: "Portfolio" },
   { href: "#team", label: "Team" },
-  { href: "blog", label: "Blog" },
+  { href: "#blog", label: "Blog" },
   { href: "#contact", label: "Contact" }
 ]
 
@@ -36,7 +36,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/50 backdrop-blur-md border-b border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

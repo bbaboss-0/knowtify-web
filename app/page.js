@@ -4,7 +4,6 @@ import About from '@/components/ui/About';
 import Goals from '@/components/ui/Goals';
 import Stats from '@/components/ui/Stats';
 import Services from '@/components/ui/Services';
-// import ServicesData from '@/components/ui/ServicesData';
 import Features from '@/components/ui/Features';
 import Portfolio from '@/components/ui/Portfolio';
 import Team from '@/components/ui/Team';
@@ -26,11 +25,12 @@ export default function Home() {
       {/* <ServicesData/> */}
       <Features />
       <Portfolio />
-      <Team />
+     
       <CallToAction />
-      <Contact />
-      <OurPartners />
-      <Blogs />
+      <OurPartners /> 
+      <Team/>
+      <Blogs /> 
+      <Contact/>
       <Footer />
     </main>
   );

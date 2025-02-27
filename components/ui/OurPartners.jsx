@@ -12,7 +12,7 @@ const partners = [
 export default function Partners() {
   return (
     <section id="partners" className="py-20 bg-gray-50">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container mx-auto px-40 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -15,7 +15,7 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-center mb-10"
         >
-          <h2 className="text-3xl font-bold text-gray-800">Contact</h2>
+          {/* <h2 className="text-3xl font-bold text-gray-800">Contact</h2> */}
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">

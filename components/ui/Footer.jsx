@@ -6,13 +6,13 @@ import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-800 py-12">
+    <footer className="bg-gray-100 text-gray-800  py-12">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
             <motion.h2
-              className="text-2xl font-bold text-gray-900"
+              className="text-2xl font-bold  text-gray-900"
               initial={{ opacity: 0, y: -10 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -41,7 +41,7 @@ export default function Footer() {
           {/* Useful Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4 text-gray-900">Useful Links</h4>
-            <ul className="space-y-3 text-sm text-gray-600">
+            <ul className="space-y-3 text-sm text-gray-600 ">
               <li>
                 <Link href="#" className="hover:text-gray-900 transition duration-300">Home</Link>
               </li>
