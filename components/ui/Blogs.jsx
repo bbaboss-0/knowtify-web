@@ -96,9 +96,9 @@ export default function BlogSection() {
 
         <div className="flex justify-center mt-10">
           <ul className="flex space-x-4 text-blue-600 font-semibold">
-            <li><a href="404" className="px-3 py-1 border rounded-md hover:bg-blue-600 hover:text-white">1</a></li>
+            <li><a href="#blog" className="px-3 py-1 border rounded-md hover:bg-blue-600 hover:text-white">1</a></li>
             <li className="px-3 py-1 border rounded-md bg-blue-600 text-white">2</li>
-            <li><a href="404" className="px-3 py-1 border rounded-md hover:bg-blue-600 hover:text-white">3</a></li>
+            <li><a href="#blog" className="px-3 py-1 border rounded-md hover:bg-blue-600 hover:text-white">3</a></li>
           </ul>
         </div>
       </div>

@@ -7,26 +7,32 @@ import { motion } from "framer-motion";
 const sdgGoals = [
   { 
     img: "/assests/img/sdg/sdg2.png",
-    gif: "/assests/img/sdg/sdg2.gif", 
+    gif:  "/assests/img/sdg/sdg2.png",
     title: "SDG 2: Zero Hunger", 
     description: "End hunger, achieve food security and improved nutrition, and promote sustainable agriculture." 
   },
   { 
     img: "/assests/img/sdg/SDG 9.jpg",
-    gif: "/assests/img/sdg/sdg9.gif",
+    gif: "/assests/img/sdg/SDG 9.jpg",
     title: "SDG 9: Industry, Innovation and Infrastructure", 
     description: "Build resilient infrastructure, promote sustainable industrialization and foster innovation." 
   },
   { 
     img: "/assests/img/sdg/sd12.png",
-    gif: "/assests/img/sdg/sdg12.gif",
+    gif: "/assets/img/sdg/sd12.png",
     title: "SDG 12: Responsible Consumption and Production", 
     description: "Ensure sustainable consumption and production patterns." 
   },
   { 
     img: "/assests/img/sdg/sdg 13.png",
-    gif: "/assests/img/sdg/sdg13.gif",
+    gif: "/assests/img/sdg/sdg 13.png",
     title: "SDG 13: Climate Action", 
+    description: "Take urgent action to combat climate change and its impacts." 
+  },  
+  { 
+    img: "/assests/img/sdg/sdg17.png",
+    gif: "/assests/img/sdg/sdg17.png",
+    title: "SDG 17:  Partnerships for the goals", 
     description: "Take urgent action to combat climate change and its impacts." 
   } 
 ];
@@ -96,7 +102,7 @@ export default function SDGGoals() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <Image
+          <img
             src={selectedSDG.gif}
             alt="SDG GIF"
             width={300}
