@@ -7,31 +7,31 @@ import { motion } from "framer-motion";
 const sdgGoals = [
   { 
     img: "/assests/img/sdg/sdg2.png",
-    gif:  "/assests/img/sdg/sdg2.png",
+    gif:  "/assests/img/sdg/zero hunger.gif",
     title: "SDG 2: Zero Hunger", 
     description: "End hunger, achieve food security and improved nutrition, and promote sustainable agriculture." 
   },
   { 
     img: "/assests/img/sdg/SDG 9.jpg",
-    gif: "/assests/img/sdg/SDG 9.jpg",
+    gif: "/assests/img/sdg/9_SDG_MakeEveryDayCount_Gifs_GDU.gif",
     title: "SDG 9: Industry, Innovation and Infrastructure", 
     description: "Build resilient infrastructure, promote sustainable industrialization and foster innovation." 
   },
   { 
     img: "/assests/img/sdg/sd12.png",
-    gif: "/assets/img/sdg/sd12.png",
+    gif: "/assets/img/sdg/12_SDG_MakeEveryDayCount_Gifs_GDU.gif",
     title: "SDG 12: Responsible Consumption and Production", 
     description: "Ensure sustainable consumption and production patterns." 
   },
   { 
     img: "/assests/img/sdg/sdg 13.png",
-    gif: "/assests/img/sdg/sdg 13.png",
+    gif: "/assests/img/sdg/13_SDG_MakeEveryDayCount_Gifs_GDU (1).gif",
     title: "SDG 13: Climate Action", 
     description: "Take urgent action to combat climate change and its impacts." 
   },  
   { 
     img: "/assests/img/sdg/sdg17.png",
-    gif: "/assests/img/sdg/sdg17.png",
+    gif: "/assests/img/sdg/17_SDG_MakeEveryDayCount_Gifs_GDU.gif",
     title: "SDG 17:  Partnerships for the goals", 
     description: "Take urgent action to combat climate change and its impacts." 
   } 
