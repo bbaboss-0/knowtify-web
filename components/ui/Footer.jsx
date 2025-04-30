@@ -91,7 +91,7 @@ export default function Footer() {
             <p className="text-sm text-gray-600">Floor 1, African Alliance Building</p>
             <p className="text-sm text-gray-600">No. 1 Sani Abacha Way, Kano</p>
             <p className="text-sm text-gray-600 mt-3">
-              <strong className="text-gray-900">Phone:</strong> (+234) 806 5287 420
+              <strong className="text-gray-900">Phone:</strong> (+234) 703 610 5884
             </p>
             <p className="text-sm text-gray-600">
               <strong className="text-gray-900">Email:</strong> info@knowtify.com.ng

@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section
       className="relative w-full h-screen flex items-center bg-cover bg-center px-8 md:px-20"
-      style={{ backgroundImage: "url('/assests/img/hero-bg1.jpg')" }}
+      style={{ backgroundImage: "url('/assets/img/hero-bg1.jpg')" }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>

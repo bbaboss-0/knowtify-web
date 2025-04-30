@@ -4,10 +4,12 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const partners = [
-  { img: require("../../public/assests/img/narsda.jpeg"), name: "NARSDA" },
-  { img: require("../../public/assests/img/brainstorm.png"), name: "Brainstorm" },
-  { img: require("../../public/assests/img/new-SpaceApps.png"), name: "SpaceApps" }
+  
+  { img: "/assets/img/brainstorm.png", name: "Brainstorm" },
+  { img: "/assets/img/new-SpaceApps.png", name: "SpaceApps" } ,
+  { img: "/assets/img/narsda.jpeg", name: "Narsda" } 
 ];
+
 
 export default function Partners() {
   return (

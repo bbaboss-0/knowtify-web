@@ -2,12 +2,13 @@
   "name": "knowtify-landing-page",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+   "start": "NODE_ENV=production node server.js",
+  "export": "next build && next export"
+},
+
   "dependencies": {
     "@radix-ui/react-hover-card": "^1.1.6",
     "@radix-ui/react-slot": "^1.1.2",

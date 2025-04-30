@@ -57,7 +57,7 @@ export default function Stats() {
     <section
       id="stats"
       className="relative py-20 bg-cover bg-center text-white text-center"
-      style={{ backgroundImage: "url('/assests/img/stats1-bg.jpg')" }} // ✅ Corrected path
+      style={{ backgroundImage: "url('/assets/img/stats1-bg.jpg')" }} // ✅ Corrected path
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Dark overlay */}
       <div className="container mx-auto px-4 relative z-10">

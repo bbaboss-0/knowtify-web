@@ -8,22 +8,23 @@ const teamMembers = [
   {
     name: "Isah Muhammad Rabiu",
     role: "C.E.O",
-    img: require("../../public/assests/img/team/isah.jpeg"), // ✅ Correct path
+    img: "/assets/img/team/isah.jpeg", // ✅ Correct path for public folder
     linkedin: "https://www.linkedin.com/in/isahmrabiu/",
   },
   {
     name: "Abdulsalam Abubakar",
     role: "C.T.O",
-    img:require("../../public/assests/img/team/daddy.jpg"), // ✅ Correct path
+    img: "/assets/img/team/daddy.jpg", // ✅ Correct path for public folder
     linkedin: "https://www.linkedin.com/in/abdulsalam-abubakar-196878204/",
   },
   {
     name: "Muhammad Abdullahi",
     role: "Senior Developer",
-    img: require("../../public/assests/img/team/abba.png"), // ✅ Correct path
+    img: "/assets/img/team/abba.png",  // ✅ public folder path
     linkedin: "https://www.linkedin.com/in/muhammad-abdullahi",
-  },
+  }
 ];
+
 
 
 export default function Team() {

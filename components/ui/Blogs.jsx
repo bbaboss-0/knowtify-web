@@ -6,52 +6,53 @@ import Image from "next/image";
 const blogPosts = [
   {
     id: 1,
-    imgSrc: require("../../public/assests/img/blog/blog-1.jpg"),
+    imgSrc: "/assets/img/blog/blog-1.jpg",
     category: "Alert Dispatcher",
-    authorImg:  require("../../public/assests/img/blog/blog-1.jpg"),
+    authorImg: "/assets/img/blog/blog-1.jpg",
     author: "Abdullrahman Nasir",
     date: "Jan 1, 2022",
   },
   {
     id: 2,
-    imgSrc:  require("../../public/assests/img/blog/blog-2.jpg"), 
-    authorImg: require("../../public/assests/img/blog/blog-2.jpg"),
+    imgSrc: "/assets/img/blog/blog-2.jpg",
+    authorImg: "/assets/img/blog/blog-2.jpg",
     author: "Bashir Muhammad",
     date: "Jun 5, 2022",
   },
   {
     id: 3,
-    imgSrc: require("../../public/assests/img/blog/blog-3.jpg"),  
+    imgSrc: "/assets/img/blog/blog-3.jpg",
     category: "Alert Dispatcher",
-    authorImg: require("../../public/assests/img/blog/blog-3.jpg"),  
+    authorImg: "/assets/img/blog/blog-3.jpg",
     author: "Nazif Abdullahi",
     date: "Jun 22, 2022",
   },
   {
     id: 4,
-    imgSrc: require("../../public/assests/img/blog/blog-4.jpg"), 
+    imgSrc: "/assets/img/blog/blog-4.jpg",
     category: "Alert Dispatcher",
-    authorImg: require("../../public/assests/img/blog/blog-4.jpg"), 
+    authorImg: "/assets/img/blog/blog-4.jpg",
     author: "Ahmad Ismail",
     date: "Jan 1, 2022",
   },
   {
     id: 5,
-    imgSrc: require("../../public/assests/img/blog/blog-5.jpg"), 
+    imgSrc: "/assets/img/blog/blog-5.jpg",
     category: "Alert Dispatcher",
-    authorImg: require("../../public/assests/img/blog/blog-5.jpg"), 
+    authorImg: "/assets/img/blog/blog-5.jpg",
     author: "Abdullahi Hassan",
     date: "Jun 22, 2022",
   },
   {
     id: 6,
-    imgSrc: require("../../public/assests/img/blog/blog-7.jpeg"),  
+    imgSrc: "/assets/img/blog/blog-7.jpeg",
     category: "Alert Dispatcher",
-    authorImg: require("../../public/assests/img/blog/blog-7.jpeg"),  
+    authorImg: "/assets/img/blog/blog-7.jpeg",
     author: "Sadiq Haruna",
     date: "Jun 5, 2022",
   },
 ];
+
 
 export default function BlogSection() {
   return (

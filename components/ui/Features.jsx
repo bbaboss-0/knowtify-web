@@ -6,37 +6,21 @@ import { motion } from "framer-motion";
 const features = [
   {
     title: "Multiple communication channels",
-    description:
-      "Knowtify supports various communication channels, such as SMS, voice calls, mobile applications, email, and social media, considering the diversity of communication infrastructure and device availability in different regions.",
-    imgFront: require("../../public/assests/img/features-light-2.jpg"), 
-    imgBack:   require("../../public/assests/img/features-light-1.jpg"),
-    reverse: false, 
-    
-  },
-  {
-    title: "Data Security and Privacy",
-    description:
-      "Knowtify ensures robust data security and privacy measures to protect farmers' personal information and communication data via encryption protocols, secure data storage, and compliance with relevant data protection regulations.",
-    img: require("../../public/assests/img/features-light-3.jpg"), 
-    reverse: true,
-  },
-  {
-    title: "Localization and Multilingual Support",
-    description:
-      "The platform is designed to accommodate multiple languages and local dialects prevalent among smallholder farmers and farming communities to ensure alerts and messages are easily understood and can effectively reach farmers in their local communities.",
-      imgFront: require("../../public/assests/img/features-light-2.jpg"), 
-      imgBack:   require("../../public/assests/img/features-light-1.jpg"),
+    description: "Supports various communication channels.",
+    imgFront: "/assets/img/features-light-2.jpg",
+    imgBack: "/assets/img/features-light-1.jpg",
     reverse: false,
   },
   {
-    title: "Two-Way Communication",
-    description:
-      "Allows farmers to provide feedback, report local conditions, seek clarifications or additional information, and to request support or share their own observations, creating a collaborative and participatory communication channel.",
-      img: require("../../public/assests/img/features-light-3.jpg"), 
+    title: "Data Security and Privacy",
+    description: "Ensures robust data security and privacy measures.",
+    img: "/assets/img/features-light-3.jpg",
     reverse: true,
   },
-];
+  // Add more features here if needed
+]; // ✅ Make sure the array is properly closed
 
+// Only one export default function in the file
 export default function Features() {
   return (
     <section id="features" className="py-20 bg-gray-50">

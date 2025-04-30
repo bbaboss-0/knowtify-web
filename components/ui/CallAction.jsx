@@ -6,7 +6,7 @@ export default function CallToAction() {
   return (
     <section
       className="relative py-20 bg-cover bg-center text-white text-center"
-      style={{ backgroundImage: "url('/assests/img/cta-bg.jpg')" }}// ✅ Same as Stats component
+      style={{ backgroundImage: "url('/assets/img/cta-bg.jpg')" }}// ✅ Same as Stats component
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div> 
